@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32819.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{5B3A99C4-2A56-4D5F-8BFB-E080EAB99D07}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Teletransmission", "Teletransmission", "{69EAA3D7-9461-4447-B66F-84C2E38F7912}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EventSourcing.Teletransmission.Export", "EventSourcing.Teletransmission.Export\EventSourcing.Teletransmission.Export.csproj", "{B8D8A816-FC83-4201-8619-14957A41A475}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B8D8A816-FC83-4201-8619-14957A41A475}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8D8A816-FC83-4201-8619-14957A41A475}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8D8A816-FC83-4201-8619-14957A41A475}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8D8A816-FC83-4201-8619-14957A41A475}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{69EAA3D7-9461-4447-B66F-84C2E38F7912} = {5B3A99C4-2A56-4D5F-8BFB-E080EAB99D07}
+		{B8D8A816-FC83-4201-8619-14957A41A475} = {69EAA3D7-9461-4447-B66F-84C2E38F7912}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {39975599-EBE0-4BD8-9D7B-6E3540D81EBB}
+	EndGlobalSection
+EndGlobal

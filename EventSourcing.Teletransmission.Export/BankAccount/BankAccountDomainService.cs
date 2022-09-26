@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EventSourcing.Teletransmission.Export.Ecritures.BankAccount
+namespace EventSourcing.Teletransmission.Export.BankAccount
 {
     public static class BankAccountDomainService
     {

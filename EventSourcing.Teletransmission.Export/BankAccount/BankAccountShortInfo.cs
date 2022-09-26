@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EventSourcing.Teletransmission.Export.Ecritures.BankAccount
+namespace EventSourcing.Teletransmission.Export.BankAccount
 {
     public record BankAccountShortInfo(Guid Id, string Name, decimal Balance, string Status);
 
@@ -24,6 +24,6 @@ namespace EventSourcing.Teletransmission.Export.Ecritures.BankAccount
             current with { Balance = @event.Balance };
 
         public BankAccountShortInfo Apply(BankAccountClosed @event, BankAccountShortInfo current) =>
-            current with { Id= @event.Id, Status = "Close" };
+            current with { Id = @event.Id, Status = "Close" };
     }
 }

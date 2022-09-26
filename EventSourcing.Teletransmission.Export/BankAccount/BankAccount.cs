@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EventSourcing.Teletransmission.Export.Ecritures.BankAccount
+namespace EventSourcing.Teletransmission.Export.BankAccount
 {
     public record BankAccountOpened(Guid Id, string Name);
     public record FundDebited(Guid Id, decimal Amount);
@@ -18,7 +18,7 @@ namespace EventSourcing.Teletransmission.Export.Ecritures.BankAccount
         decimal Balance = 0.0M,
         bool IsOpened = true)
     {
-        public static BankAccount Create(BankAccountOpened @event) => 
+        public static BankAccount Create(BankAccountOpened @event) =>
             new(@event.Id, @event.Name);
 
         public BankAccount Apply(FundDebited @event) =>

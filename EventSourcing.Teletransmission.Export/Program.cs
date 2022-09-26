@@ -1,5 +1,5 @@
+using EventSourcing.Teletransmission.Export.BankAccount;
 using EventSourcing.Teletransmission.Export.Ecritures;
-using EventSourcing.Teletransmission.Export.Ecritures.BankAccount;
 using EventSourcing.Teletransmission.Export.Ecritures.GetEcritureInfo;
 using Marten;
 using Marten.Events.Daemon.Resiliency;
